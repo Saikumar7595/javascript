@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+.head {
+text-align:center;
+position:relative;
+top:100px;
+left:550px;
+border:2px solid black;
+height:350px;
+width:500px;
+border-radius:30px;
+background-color:powderblue;
+color:black;
+
+}
+.main {
+position:relative;
+top:90px;
+left:650px;
+}
+.btn{
+position:relative;
+left:10px;
+top:20px;
+}
+.body{
+over-flow-x:hidden;
+}
+.one{
+position:relative;
+left:900px;
+top:100px;
+}
+.two{
+position:relative;
+left:600px;
+top:60px;
+}
+
+
+</style>
+
+</head>
+
+<body style="background-color:powderblue";>
+<div class="btn">
+<a href="second.html"><button onclick class="btn btn-outline-danger">HOME</a></button>
+</div>
+<div class="main">
+<h1 style="color:red";>ACCOUNT DETAILS</h1>
+</div>
+<div class="head">
+
+<P><b>ACCOUNT-NUMBER<b> : 3947197345</P>
+<p><b>ACCOUNT HOLDER NAME<b> :GAMPA SAIKUMAR</P>
+<P><b>IFSC-CODE <b>: KKBKN0007328</P>
+<p><b>BANK TYPE <b>:KOTAK MAHINDRA BANK</p>
+<p><b>CURRENT BALANCE <b>:12,000 </p>
+<P><b>NOMINE<b> :no </P>
+<p><b>ADDRESS<b> : KASIMKOTA,NEAR VINAYAKA TEMPLE,UPPUNETI DHIBBA</p>
+<p><b>PINCODE<b> :531031</p>
+</div>
+<div class="one">
+<button onclick="subbtn()" class="btn btn-outline-danger">DEPIT</button>
+</div>
+<div class="two">
+<button onclick="minibtn()" class="btn btn-outline-danger">CREDIT</button>
+</div>
+<script>
+function  minibtn() {
+	let pass = +prompt("enter the password");
+	
+	if  (pass == '12345') {
+	//alert("login success");
+	location.href="four.html";
+	}
+	else {
+	alert("invalid");
+	}
+
+}
+function  subbtn() {
+	let pass = +prompt("enter the password");
+	
+	if  (pass == '12345') {
+	//alert("login success");
+	location.href="five.html";
+	}
+	else {
+	alert("invalid");
+	}
+
+}
+
+
+
+
+ </script>
+
+ </body>
+ </html>
